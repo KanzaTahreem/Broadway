@@ -1,0 +1,132 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.header .container {
+  justify-content: flex-end;
+}
+
+.jumbotron {
+  height: 800px;
+  background-image: url('https://content.codecademy.com/projects/broadway/bg.jpg?_gl=1*1goni4x*_ga*ODkwNzk0ODg1OC4xNjczNzYzNzM3*_ga_3LRZM6TM9L*MTY3MzkwNjgwMC40LjEuMTY3MzkwNzg1NS40OC4wLjA.');
+}
+
+.header {
+  background-color: #333;
+}
+
+.nav {
+  margin: 0;
+  padding: 20px 10px;
+  display: flex;
+  gap: 1em;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+.nav li {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.main {
+  position: relative;
+  top: 180px;
+  text-align: center;
+}
+
+.main h1 {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 55px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+.btn-default {
+  border: 1px solid #333;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1.3px;
+  padding: 15px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.btn-primary {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.supporting {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.supporting .col {
+  float: left;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  width: 16%;
+  background: #fff;
+  margin: 1em;
+  padding: 18px 0;
+  border: 2px solid;
+}
+
+.supporting img {
+  height: 32px;
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 30px;
+  margin-bottom: 29px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+}
